@@ -18,6 +18,6 @@ class Decoder implements DecoderInterface
      */
     public function decode($data)
     {
-        return \Zend_Json::decode($data);
+        return \Zend\Json\Json::decode($data);
     }
 }
